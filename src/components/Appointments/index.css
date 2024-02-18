@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.bg-container {
+  background: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+
+.content-container {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .content-container {
+    padding: 60px;
+  }
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .form-container {
+    flex-grow: 1;
+  }
+}
+
+.main-image {
+  width: 50%;
+  height: 30%;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .main-image {
+    display: none;
+  }
+}
+
+.input-ele {
+  padding-left: 20px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #b5b7c4;
+}
+
+.label {
+  color: #b5b7c4;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.button {
+  align-self: flex-start;
+  height: 30px;
+  background-color: #8b5cf6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.seperator {
+  border: 1.5px solid #b5b7c4;
+  margin-top: 10px;
+}
+
+.appoinment-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-heading {
+  font-size: 20px;
+}
+
+.starred-button {
+  align-self: center;
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  width: 70px;
+  padding: 6px 0px;
+}
+
+.bg-color {
+  background-color: #8b5cf6;
+  color: #fff;
+}
+
+.appoinment-list-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
